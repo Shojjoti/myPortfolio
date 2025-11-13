@@ -1,157 +1,230 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shojjoti | Portfolio</title>
 
-    <!-- DaisyUI + TailWind CND -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- DaisyUI + Tailwind -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!--For header Montserrat font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    <!--For Paragraph Inter font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
 
-    <style>
-        .inter-font {
-          font-family: "Inter", sans-serif;          
-          font-style: normal;
-        }
-
-        .montserrat-font {
-          font-family: "Montserrat", sans-serif; 
-          font-style: normal;
-        }
-       .col{
-         color:white ;
-       }
-       nav{
-        position: sticky;
-        top: 0;
-        z-index: 999;
-       }
-    </style>
+  <!-- Font Awesome for social icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-<body class=" "  id="inter-font">
-    <header>
-        <!--navbar-->
-        <section id="montserrat-font" class="nav" >
-            <div class="navbar bg-[#d17f0d] text-white ">
-               <div class="navbar-start">
-                  <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost md:hidden lg:hidden">
-                           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-                        </div>
-                        <ul
-                            tabindex="-1"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow ">
-                            <li><a>Home</a></li>
-                            <li><a>Education</a></li>
-                            <li><a>Skills</a></li> 
-                            <li><a>Projects</a></li>                     
-                            <li><a>Activities</a></li>
-                            <li><a>Experience</a></li>
-                        </ul>
-                    </div>
-                  <a class="btn btn-ghost text-xl " id="col">Shojjoti</a>
-                </div>
-                <div class="navbar-end hidden lg:flex">
-                   <ul class="menu menu-horizontal px-1">
-                      <li><a>Home</a></li>
-                      <li><a>Education</a></li>
-                      <li><a>Skills</a></li> 
-                      <li><a>Projects</a></li>                     
-                      <li><a>Activities</a></li>
-                      <li><a>Experience</a></li>
-                    </ul>
-                </div>
-                       
-            </div>
-        </section>
 
-        <!--header body-->
-        <div class="hero bg-yellow-200 min-h-screen m-0 p-0">
-           
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src="images/shoshi.jpg" 
-                    class="max-w-sm rounded-lg shadow-2xl"
-                />
-                <div>
-                 <h1 class="text-5xl font-bold">Hi, I'm Shojjoti!</h1>
-                    <p class="py-6">
-                      Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                      quasi. In deleniti eaque aut repudiandae et a id nisi.
-                    </p>
-                   <button class="btn btn-primary">Hire me</button>
-                </div>
-            </div>
+<body class="inter-font bg-base-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="navbar bg-[#d17f0d] text-white px-5">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
         </div>
-       
-    </header>
-
-    <!--Body or middle-->
-    <body>
-
-    </body>
-    <!--Footer-->
-    <footer class="footer sm:footer-horizontal bg-[#d17f0d] text-base-content p-10">
-       <nav >
-          <h6 class="footer-title text-white " id="montserrat-font">Services</h6>
-          <a class="link link-hover" id="inter-font">Web Development</a>
-          <a class="link link-hover" id="inter-font">Design</a>
-          <a class="link link-hover" id="inter-font">Digital Art</a>
-          <a class="link link-hover" id="inter-font">Hosting</a>
-        </nav>
-        <nav>
-          <h6 class="footer-title text-white">More</h6>
-          <a class="link link-hover">About me</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Projects</a>         
-        </nav>
-        <nav>
-          <h6 class="footer-title text-white">Social</h6>
-          <div class="grid grid-flow-col gap-4">
-            <a href="https://www.facebook.com/shojjoti.hossen/"> 
-                <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                class="fill-current">
-                <path
-                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-               </svg> 
-               
-            </a>
-         
-            <a href="https://www.youtube.com/@shojjotihossen5192"> 
-                <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          class="fill-current">
-          <path
-            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-                </svg>
-            </a>
-            <a href="https://www.linkedin.com/in/shojjoti-hossen/">
-                <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" >
-                <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
-                </svg>    
-
-       
-            </a>
+        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow text-black">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#design">Design</a></li>
+          <li><a href="#photography">Photography</a></li>
+          <li><a href="#travel">Travel</a></li>
+        </ul>
+      </div>
+      <a class="btn btn-ghost text-2xl montserrat-font">Shojjoti</a>
+    </div>
+    <div class="navbar-end hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#design">Design</a></li>
+        <li><a href="#photography">Photography</a></li>
+        <li><a href="#travel">Travel</a></li>
+      </ul>
     </div>
   </nav>
-</footer>
-    
+
+  <!-- About -->
+  <section id="about" class="py-16 bg-yellow-100 fade-section">
+    <div class="container mx-auto flex flex-col lg:flex-row items-center gap-10 px-5">
+      <img src="images/shoshi.jpg" class="w-60 rounded-2xl shadow-xl" alt="Shojjoti" />
+      <div>
+        <h1 class="text-4xl font-bold montserrat-font mb-4">Hi, I'm Shojjoti!</h1>
+        <p class="max-w-xl">I'm a passionate Computer Science student who loves creating beautiful web experiences, exploring creativity through design, and expressing ideas through writing & photography.</p>
+        <p class="mt-3">📞 Phone: <span class="font-semibold">+880 1XXXXXXXXX</span></p>
+        <button class="btn btn-primary mt-4">Hire Me</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-16 bg-base-200 fade-section">
+    <div class="container mx-auto px-5">
+      <h2 class="text-3xl font-bold montserrat-font mb-8 text-center">Education</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="card bg-white shadow-lg p-6">
+          <h3 class="font-bold text-xl">B.Sc. in Computer Science & Engineering</h3>
+          <p>XYZ University (2022 - Present)</p>
+          <p class="text-sm mt-2">Relevant Coursework: Web Development, Data Structures, AI, Database Systems.</p>
+        </div>
+        <div class="card bg-white shadow-lg p-6">
+          <h3 class="font-bold text-xl">Higher Secondary Certificate (HSC)</h3>
+          <p>ABC College (2019 - 2021)</p>
+          <p class="text-sm mt-2">Major: Science | GPA: 5.00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-16 bg-yellow-50 fade-section">
+    <div class="container mx-auto px-5">
+      <h2 class="text-3xl font-bold montserrat-font mb-8 text-center">Work & Volunteering Experience</h2>
+
+      <div class="space-y-6">
+        <div class="card bg-white shadow-md p-6">
+          <h3 class="text-xl font-semibold">Web Developer Intern – TechNova</h3>
+          <p class="text-sm text-gray-500">June 2024 – August 2024</p>
+          <p class="mt-2">Developed responsive web pages and collaborated with UI/UX team on frontend design improvements.</p>
+        </div>
+
+        <div class="card bg-white shadow-md p-6">
+          <h3 class="text-xl font-semibold">Volunteer – CodeGirls Community</h3>
+          <p class="text-sm text-gray-500">2023 – Present</p>
+          <p class="mt-2">Conducted programming workshops for beginners and assisted in organizing hackathons.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 bg-base-200 fade-section">
+    <div class="container mx-auto px-5">
+      <h2 class="text-3xl font-bold montserrat-font mb-8 text-center">Projects</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card bg-white shadow-lg">
+          <video class="w-full rounded-t-lg" controls>
+            <source src="videos/project1.mp4" type="video/mp4" />
+          </video>
+          <div class="card-body">
+            <h3 class="card-title">Portfolio Website</h3>
+            <p>A responsive personal portfolio built with TailwindCSS and JavaScript.</p>
+          </div>
+        </div>
+
+        <div class="card bg-white shadow-lg">
+          <video class="w-full rounded-t-lg" controls>
+            <source src="videos/project2.mp4" type="video/mp4" />
+          </video>
+          <div class="card-body">
+            <h3 class="card-title">E-Commerce Frontend</h3>
+            <p>Modern shopping UI using React and TailwindCSS with cart animations.</p>
+          </div>
+        </div>
+
+        <div class="card bg-white shadow-lg">
+          <video class="w-full rounded-t-lg" controls>
+            <source src="videos/project3.mp4" type="video/mp4" />
+          </video>
+          <div class="card-body">
+            <h3 class="card-title">AI Chatbot</h3>
+            <p>Built a chatbot prototype using HTML, CSS, and JavaScript logic simulation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="py-16 bg-yellow-100 fade-section">
+    <div class="container mx-auto px-5">
+      <h2 class="text-3xl font-bold montserrat-font mb-8 text-center">Academic Certificates & Achievements</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <img src="certificates/cert1.jpg" class="rounded-lg shadow-lg" />
+        <img src="certificates/cert2.jpg" class="rounded-lg shadow-lg" />
+        <img src="certificates/cert3.jpg" class="rounded-lg shadow-lg" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Design -->
+  <section id="design" class="py-16 bg-base-200 fade-section">
+    <div class="container mx-auto px-5">
+      <h2 class="text-3xl font-bold montserrat-font mb-8 text-center">Graphic Design & Illustration</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <img src="designs/design1.jpg" class="rounded-lg shadow-lg hover:scale-105 transition" />
+        <img src="designs/design2.jpg" class="rounded-lg shadow-lg hover:scale-105 transition" />
+        <img src="designs/design3.jpg" class="rounded-lg shadow-lg hover:scale-105 transition" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Photography -->
+  <section id="photography" class="py-16 bg-yellow-50 fade-section">
+    <div class="container mx-auto px-5">
+      <h2 class="text-3xl font-bold montserrat-font mb-8 text-center">Bookish Photography & Reviews</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div><img src="photos/book1.jpg" class="rounded-lg shadow-lg" /></div>
+        <div>
+          <p class="text-lg">“Books open doors to imagination.”</p>
+          <p class="mt-3">I capture moments that tell a story — where books meet creativity. Each photograph reflects emotions and lessons I take from literature.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Travel -->
+  <section id="travel" class="py-16 bg-base-200 fade-section">
+    <div class="container mx-auto px-5">
+      <h2 class="text-3xl font-bold montserrat-font mb-8 text-center">Travel Experiences</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <img src="travel/trip1.jpg" class="rounded-lg shadow-md hover:scale-105 transition" />
+        <img src="travel/trip2.jpg" class="rounded-lg shadow-md hover:scale-105 transition" />
+        <img src="travel/trip3.jpg" class="rounded-lg shadow-md hover:scale-105 transition" />
+      </div>
+      <p class="text-center mt-6">“Traveling inspires creativity and new perspectives.”</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer sm:footer-horizontal bg-[#d17f0d] text-base-content p-10 text-white">
+    <nav>
+      <h6 class="footer-title montserrat-font">Services</h6>
+      <a class="link link-hover">Web Development</a>
+      <a class="link link-hover">Design</a>
+      <a class="link link-hover">Digital Art</a>
+      <a class="link link-hover">Hosting</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title montserrat-font">More</h6>
+      <a class="link link-hover">About Me</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Projects</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title montserrat-font">Social</h6>
+      <div class="grid grid-flow-col gap-4">
+        <a href="https://facebook.com/shojjoti.hossen"><i class="fab fa-facebook text-xl"></i></a>
+        <a href="https://youtube.com/@shojjotihossen5192"><i class="fab fa-youtube text-xl"></i></a>
+        <a href="https://linkedin.com/in/shojjoti-hossen"><i class="fab fa-linkedin text-xl"></i></a>
+      </div>
+    </nav>
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
 </body>
 </html>

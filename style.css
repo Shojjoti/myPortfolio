@@ -1,0 +1,41 @@
+/* Font families */
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+
+/* Navbar sticky */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* Fade-in animation */
+.fade-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hover effects */
+img:hover {
+  transition: 0.3s ease;
+}
+
+/* General text colors */
+body {
+  color: #333;
+}
