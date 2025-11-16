@@ -58,80 +58,156 @@
   </nav>
 
   <!-- About -->
-  <section id="about" class="py-16 bg-yellow-100 fade-section">
-    <div class="container mx-auto flex flex-col lg:flex-row items-center gap-10 px-5">
-      <img src="images/shoshi.jpg" class="w-60 rounded-2xl shadow-xl" alt="Shojjoti" />
-      <div>
-        <h1 class="text-4xl font-bold montserrat-font mb-4">Hi, I'm Shojjoti!</h1>
-        <p class="max-w-xl">I'm a passionate Computer Science student who loves creating beautiful web experiences, exploring creativity through design, and expressing ideas through writing & photography. I am also a traveller , i love to explore new places and new activities. I mostly love mountain treking and climbing.  </p>
-        <p class="mt-3">📞 Phone: <span class="font-semibold">+880 1842624266</span></p>
-        <button class="btn btn-primary mt-4">Hire Me</button>
+  <section id="about" 
+      class="py-24 relative overflow-hidden"> 
+      <div 
+        class="absolute inset-0 bg-cover bg-center"
+        style="background-image: url('images/bg.jpg'); filter: blur(6px) brightness(50%);">
       </div>
+  
+  <div class="absolute inset-0 bg-white/60"></div>
+ 
+  <div class="relative container mx-auto px-5">
+    
+    <h1 class="text-5xl font-extrabold montserrat-font text-center mb-12 text-[#d17f0d]">
+      Hi, I'm Shojjoti!
+    </h1>
+    
+    <div class="flex flex-col lg:flex-row items-center justify-center gap-12">
+
+      
+      <img 
+        src="images/shoshi.jpg"
+        class="w-64 rounded-3xl shadow-2xl 
+               border border-white/30 
+               backdrop-blur-xl
+               hover:scale-105 transition duration-300"
+        style="mix-blend: lighten;"
+        alt="Shojjoti"
+      />
+
+      
+      <div class="lg:w-1/2 text-white max-w-2xl text-lg leading-relaxed">
+
+        <p>
+          I'm a dedicated Computer Science & Engineering student with a strong passion for  web development, UI/UX design, creative content, and digital storytelling.
+        </p>
+
+        <p class="mt-4">
+          I enjoy building clean, user-friendly digital experiences and exploring creativity through 
+          writing, photography, and visual art.
+        </p>
+
+        <p class="mt-4">
+          As a traveler and mountain trekking lover, I find inspiration in nature, challenges, and new experiences.
+        </p>
+
+        <p class="mt-6">
+          📞 <span class="font-semibold">Phone:</span> +880 1842624266
+        </p>
+
+        <a href="mailto:shojjotihhossenbd30@gmail.com" class="btn btn-primary mt-5">
+          Hire Me
+        </a>
+      </div>
+
     </div>
+  </div>
   </section>
 
   <!-- Education -->
-  <section id="education" class="py-16 bg-base-200 fade-section">
-    <div class="container mx-auto px-5">
-      <h2 class="text-3xl font-bold montserrat-font mb-8 text-center">Education</h2>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="card bg-white shadow-lg p-6">
+  <section id="education" class="py-20 bg-gradient-to-br from-yellow-100  to-orange-100 fade-section">
+  <div class="container mx-auto px-5">
+    <h2 class="text-4xl font-extrabold montserrat-font mb-12 text-center">
+      Education
+    </h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <!-- Card -->
+      <div class="group card bg-white shadow-xl p-6 border-l-4 border-orange-500 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+        <div class="flex items-center gap-3 mb-3">
+          <span class="text-orange-600 text-2xl">🎓</span>
           <h3 class="font-bold text-xl">B.Sc. in Computer Science & Engineering</h3>
-          <p>American International University Bangladesh(AIUB) (2023 - Present)</p>
-          <p class="text-sm mt-2">Relevant Coursework: Software, Web Development, Data Structures, AI, Database Systems.</p>
         </div>
-        <div class="card bg-white shadow-lg p-6">
-          <h3 class="font-bold text-xl">Higher Secondary Certificate (HSC)</h3>
-          <p>National College of Education, Narsingdi (2020 - 2022)</p>
-          <p class="text-sm mt-2">Major: Science | GPA: 5.00</p>
-        </div>
-        <div class="card bg-white shadow-lg p-6">
-          <h3 class="font-bold text-xl">Secondary School Certificate (SSC)</h3>
-          <p>MORJAL K.M.B. HIGH SCHOOL (2018 - 2020)</p>
-          <p class="text-sm mt-2">Major: Science | GPA:4.89</p>
-          
-        </div>
-        <div class="card bg-white shadow-lg p-6">
-          <h3 class="font-bold text-xl">Junior School Certificate (JSC)</h3>
-          <p>MORJAL K.M.B. HIGH SCHOOL (2015 - 2018)</p>
-          <p class="text-sm mt-2">Major: Science | GPA:5:00</p>
-          <p class="text-sm mt-2">Awarded a General Grade Scholarship in JSC examination</p>
-          
-        </div>
+        <p class="font-medium">American International University Bangladesh (2023 - Present)</p>
+        <p class="text-sm mt-3 text-gray-600">Relevant Coursework: Software, Web Development, Data Structures, AI, Database Systems.</p>
       </div>
+
+      <div class="group card bg-white shadow-xl p-6 border-l-4 border-orange-500 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+        <div class="flex items-center gap-3 mb-3">
+          <span class="text-blue-600 text-2xl">📘</span>
+          <h3 class="font-bold text-xl">Higher Secondary Certificate (HSC)</h3>
+        </div>
+        <p class="font-medium">National College of Education, Narsingdi (2020 - 2022)</p>
+        <p class="text-sm mt-3 text-gray-600">Major: Science | GPA: 5.00</p>
+      </div>
+
+      <div class="group card bg-white shadow-xl p-6 border-l-4 border-orange-500 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+        <div class="flex items-center gap-3 mb-3">
+          <span class="text-orange-600 text-2xl">📗</span>
+          <h3 class="font-bold text-xl">Secondary School Certificate (SSC)</h3>
+        </div>
+        <p class="font-medium">MORJAL K.M.B. HIGH SCHOOL (2018 - 2020)</p>
+        <p class="text-sm mt-3 text-gray-600">Major: Science | GPA: 4.89</p>
+      </div>
+
+      <div class="group card bg-white shadow-xl p-6 border-l-4 border-orange-500 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+        <div class="flex items-center gap-3 mb-3">
+          <span class="text-orange-600 text-2xl">🏅</span>
+          <h3 class="font-bold text-xl">Junior School Certificate (JSC)</h3>
+        </div>
+        <p class="font-medium">MORJAL K.M.B. HIGH SCHOOL (2015 - 2018)</p>
+        <p class="text-sm mt-3 text-gray-600">Major: Science | GPA: 5.00</p>
+        <p class="text-sm mt-2 text-gray-600">Awarded General Grade Scholarship</p>
+      </div>
+
     </div>
+
+  </div>
   </section>
 
   <!-- Experience -->
-  <section id="experience" class="py-16 bg-yellow-50 fade-section">
-    <div class="container mx-auto px-5">
-      <h2 class="text-3xl font-bold montserrat-font mb-8 text-center">Work & Volunteering Experience</h2>
+  <section id="experience" class="py-20 bg-gradient-to-br from-yellow-50 to-orange-100 fade-section">
+  <div class="container mx-auto px-5">
+    <h2 class="text-4xl font-extrabold montserrat-font mb-12 text-center">
+      Work Experience
+    </h2>
 
-      <div class="space-y-6">
-        <div class="card bg-white shadow-md p-6">
+    <div class="space-y-8">
+      
+      <div class="group card bg-white shadow-xl p-7 rounded-xl border-l-4 border-orange-500 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+        <div class="flex items-center gap-3">
+          <span class="text-orange-600 text-2xl">🖼️</span>
           <h3 class="text-xl font-semibold">INFO-GRAPHIC DESIGNER | 10 MINUTE SCHOOL</h3>
-          <p class="text-sm text-gray-500">2021-2021 </p>
-          <p class="mt-2">Designed lecture slides for live classes ,Expertise in Microsoft PowerPoint and presentation design</p>
         </div>
-
-        <div class="card bg-white shadow-md p-6">
-          <h3 class="text-xl font-semibold">AFFILIATE MANAGER | 10 MINUTE SCHOOL</h3>
-          <p class="text-sm text-gray-500">2021-2022 </p>
-          <p class="mt-2">Hands-on experience in affiliate marketing strategies.</p>
-          <p class="mt-2">Meeting monthly targets, and strengthening communication and management skills.</p>
-
-        </div>
-
-        <div class="card bg-white shadow-md p-6">
-          <h3 class="text-xl font-semibold">SELLES EXCUATIVE | TASTY TREAT</h3>
-          <p class="text-sm text-gray-500">2022-2023 </p>
-          <p class="mt-2">Promoting products, achieving sales targets, and providing excellent customer service.</p>
-          
-
-        </div>
+        <p class="text-sm text-gray-500 mt-1">2021 - 2021</p>
+        <p class="mt-3 text-gray-700">Designed high-quality lecture slides for live classes. Strong PowerPoint and presentation design skills.</p>
       </div>
+
+      <div class="group card bg-white shadow-xl p-7 rounded-xl border-l-4 border-orange-500 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+        <div class="flex items-center gap-3">
+          <span class="text-orange-600 text-2xl">📈</span>
+          <h3 class="text-xl font-semibold">AFFILIATE MANAGER | 10 MINUTE SCHOOL</h3>
+        </div>
+        <p class="text-sm text-gray-500 mt-1">2021 - 2022</p>
+        <p class="mt-3 text-gray-700">Hands-on experience in affiliate marketing strategies.</p>
+        <p class="text-gray-700 mt-2">Met monthly targets and strengthened communication & management skills.</p>
+      </div>
+
+      <div class="group card bg-white shadow-xl p-7 rounded-xl border-l-4 border-orange-500 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+        <div class="flex items-center gap-3">
+          <span class="text-orange-600 text-2xl">🛒</span>
+          <h3 class="text-xl font-semibold">SALES EXECUTIVE | TASTY TREAT</h3>
+        </div>
+        <p class="text-sm text-gray-500 mt-1">2022 - 2023</p>
+        <p class="mt-3 text-gray-700">Promoted products, achieved sales targets, and delivered excellent customer service.</p>
+      </div>
+
     </div>
+  </div>
   </section>
+
 
   <!-- Projects -->
   <section id="projects" class="py-16 bg-base-200 fade-section">
@@ -168,12 +244,12 @@
       
       <div class="card bg-white shadow-lg hover:shadow-2xl transition">
         <video class="w-full rounded-t-lg" controls>
-          <source src="videos/project3.mp4" type="video/mp4" />
+          <source src="images/Projects/WeddingM.mp4" type="video/mp4" />
         </video>
         <div class="card-body">
           <h3 class="card-title">Wedding Management System</h3>
           <p>You can simply plan your wedding by our agency. <br>
-          lets plan your wedding program togther 
+          lets plan your wedding program togther!
           <br> <br>
           This site done my "Java" 
         </p>
@@ -335,13 +411,12 @@
   <!-- Certificates -->
   <section id="certificates" class="py-16 bg-yellow-100 fade-section">
     <div class="container mx-auto px-5">
-      <h2 class="text-3xl font-bold montserrat-font mb-8 text-center">Academic Certificates & Achievements</h2>
+      <h2 class="text-3xl font-bold montserrat-font mb-8 text-center"> Certificates & Achievements</h2>
       <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
         <img src="images/EnviromentClub.jpg" class="rounded-lg shadow-lg" />
         <img src="images/leaderShip.jpg" class="rounded-lg shadow-lg" />
         <img src="images/leadershipSummit.jpg" class="rounded-lg shadow-lg" />
-        <img src="images/HSC.jpg" class="rounded-lg shadow-lg" />
-        <img src="images/SSC.jpg" class="rounded-lg shadow-lg" />
+        
       </div>
     </div>
   </section>
@@ -397,8 +472,7 @@
         <img src="images/book1.jpg" class="rounded-lg shadow-lg" />
         <div>
           <h3 class="text-2xl font-bold mb-3">জলের দেশে স্থলপদ্ম </h3>
-          <p class="text-lg">
-            " জলের দেশে স্থলপদ্ম " বইটি পড়ে শেষ করেছি বেশ কিছুদিন আগেই।  বইটি নয়টি ছোট গল্পের সমন্বয়ে গঠিত। দুটি গল্প লেখক আগে সোশাল মিডিয়া সাইডে দিয়েছিলেন বাকি সাতটি গল্প একদম নতুন। "জলের দেশে স্থলপদ্ম" বইটি পাঠের মাধ্যমেই ওয়ালিদ প্রত্যয়  এর লেখার সাথে আমার পরিচয়। ওনার লেখা আমি এই প্রথম পড়ি এবং ওনার লেখার ধরণ বেশ ভালোও লাগে ।  তো গল্প গুলো নিয়ে একটু বলি। তার আগে বলি, লেখক গল্পগুলো শুরু করেছেন একটা গল্পের মাধ্যমে, গল্প দিয়ে গল্প শুরু এটা বেশ মজার এবং থ্রিলিং ছিলো। 
+          <p class="text-lg">     
             
             বইটির প্রথম গল্প ' পিঁপড়া ' ।  পিঁপড়া গল্পে দেখা যায় নিজের লাশ নর্দমায় ভেসে থাকা অবস্থা  ব্যক্তি দেখতে পাচ্ছে। নর্দমায় ভেসে থাকা তার লাশের সাথে  পিঁপড়ার কথোপকথন। লাশ তথা তাকে খাওয়া নিয়ে পিঁপড়ের রাজনীতি। এ গল্পটিতে লেখক নাম পুরুষের ব্যবহার করেন। 
             
@@ -433,7 +507,6 @@
             
             আর প্রফেসরের আছো শুধু শব্দজাল।  তাই তিনি সেই শব্দের জাল বাঁধে ফাত্তার সাথে। জাকারিয়া এবং ফাত্তাহ ইন্টারোগেশন রুমে খুব সুন্দর ভাবে কথা চালিয়ে যান৷ লেখক তাদের কথোপকথন খুব সুন্দর এবং সাবলীল ভাবে চালিয়ে গেছেন।  খুব ধীরে ধীরে উপন্যাসটি চালনা করা হয়েছে, লেখক যে তাড়াহুড়ো করেননি তা বলা বাহুল্য। উপন্যাসটিতে আন্তর্জাতিক বোমারু হিসেবে ফাত্তার চরিত্রটি ছিলো দারুণ খুবই সুন্দর,তার জীবনবৃত্তান্তও ছিলো আকর্ষণীয়। তবে আমার কেন যেনো প্রফেসর জাকারিয়া চরিত্রটি ততটা ভালো লাগেনি।মনে হয়েছে তাকে আরো আকর্ষণীয় করা যেতো, তার চরিত্র যেনো কিছুটা খামতিই রয়ে গেছে ব‌লে আমার মনে হয়েছে।
             
-            তবে প্রফেসরের কিছু ব্যপার ভালো লেগেছে যেমন  সিগার অফারের ব্যপার টা কিংবা কফি । আবার রিড টেকনিক ইউজ করাটা। 
             <br> <br>
             
             রেটিং : ৩.৯/৫
@@ -484,8 +557,7 @@
             হুম হলোও তাই সহজে তাকে ভালো হতে দিলো না।  বিনা দোষে তাকে যেতে হলো জেলে। এসব শুনে হয়তো মনে হবে এটা নিতান্তই একজন চোরের জীবনের গল্প।  কিন্তু এ গল্প কিভাবে একটি মুক্তিযুদ্ধের গল্প হয়ে দাড়ায় তা এ উপন্যাসের মাধ্যমে জানা যায়।  
             প্লটের অন্যান্য চরিত্র - ' তেইল্যা চোরার স্ত্রী আমেনা, মাঝি নসু, তার ছেলে মজিদ ' এসব মানুষগুলোও যেনো আপন কেউ হয়ে ভেসে ওঠে চোখের সামনে৷ আজন্ম পাঞ্জাবি হয়ে উঠতে যাওয়া বাচ্চুও মরার আগে পাকিস্তানিদের গালি দেয় ' শুয়োরের বাচ্চা ' বলে।  লাশের স্তূপ দেখার পর ফজর আলীর স্তম্ভিত মনোভাব ।  
             তেইল্যা চোরা কিভাবে হয়ে উঠে একজন মুক্তিযুদ্ধা। শেষে বলে - ' ' আমার যুদ্ধ শেষ হয় নাই রে ' 
-            এটি ' ওবায়েদ হক ' এর প্রথম উপন্যাস। লেখকের প্রায় সকল বই ই আমার পড়া। দারুণ লেখেন তিনি৷ কিছু কিছু লেখা পড়ার পরও তার মুগ্ধতা কাটে না। কেমন একটা গোরের মাঝে কাটে অনেকা সময়। পাঠক'কে সেরকম পরিস্থিতিতে ফেলার মতো লেখক হচ্ছে ওবায়েদ হক।  বলাই বাহুল্য তিনি একজন সুলেখক।লেখকের  'কাঙালসংঘ ' নামে একটি বই ২০২১ বইমেলায় বের হয়েছে। 
-            
+            এটি ' ওবায়েদ হক ' এর প্রথম উপন্যাস।
             <br>ছবি : নুসরাত জামান সুজানা।
           </p>
           <button class="btn btn-sm mt-4 bg-[#d17f0d] text-white">
@@ -521,10 +593,7 @@
               ( হে খোদক, ওরা বোঝেনি বুঝবোও না  আমার কথা <br>
                	তাদের দাও অন্য হৃদয় যদি আমায় না 	দেবে অন্য ভাষা) <br>
                 
-            ৪. 	দিলে নাদাঁ তুঝে হুয়া কেয়া হ্যায় <br>
-             	আখির ইস দর্দ কা দাওয়া কেয়া হ্যায় <br>
-               ( অবুঝ হৃদয়, তোর হয়েছে কী <br>
-                 	আসলে এই বেদনার ওষুধ কী) 
+           
           </p>
           <button class="btn btn-sm mt-4 bg-[#d17f0d] text-white">
             <a href="https://www.instagram.com/p/CqLwedAyhXO/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Read More</a>
@@ -569,196 +638,168 @@
 
   <!-- Travel -->
   <section id="travel" class="py-20 bg-yellow-50">
-  <div class="container mx-auto px-5">
+  <div class="container mx-auto  px-5">
     <h2 class="text-3xl font-bold text-center mb-12 montserrat-font">
       My Traveling Moments
     </h2>
-
-    <div class="grid md:grid-cols-2 gap-12 items-center">
-
-      <!-- LEFT : Carousel Photos -->
+    
+    <div class="grid md:grid-cols-2 gap-12 items-center mb-16">      
       <div class="w-full">
-        <div class="carousel w-full rounded-lg shadow-xl">
+        <div class="carousel w-full max-w-md rounded-lg shadow-xl">
 
           <!-- Slide 1 -->
           <div id="slide1" class="carousel-item relative w-full">
-            <img src="images/kk1.jpg" class="w-full" />
-            <a href="#slide5" class="btn btn-circle absolute left-3 top-1/2 -translate-y-1/2">❮</a>
+            <img src="images/kk1.jpg" class="w-full rounded-lg" />
+            <a href="#slide8" class="btn btn-circle absolute left-3 top-1/2 -translate-y-1/2">❮</a>
             <a href="#slide2" class="btn btn-circle absolute right-3 top-1/2 -translate-y-1/2">❯</a>
           </div>
 
           <!-- Slide 2 -->
           <div id="slide2" class="carousel-item relative w-full">
-            <img src="images/kk2.jpg" class="w-full" />
+            <img src="images/kk2.jpg" class="w-full rounded-lg" />
             <a href="#slide1" class="btn btn-circle absolute left-3 top-1/2 -translate-y-1/2">❮</a>
             <a href="#slide3" class="btn btn-circle absolute right-3 top-1/2 -translate-y-1/2">❯</a>
           </div>
 
           <!-- Slide 3 -->
           <div id="slide3" class="carousel-item relative w-full">
-            <img src="images/kk3.jpg" class="w-full" />
+            <img src="images/kk3.jpg" class="w-full rounded-lg" />
             <a href="#slide2" class="btn btn-circle absolute left-3 top-1/2 -translate-y-1/2">❮</a>
             <a href="#slide4" class="btn btn-circle absolute right-3 top-1/2 -translate-y-1/2">❯</a>
           </div>
 
           <!-- Slide 4 -->
           <div id="slide4" class="carousel-item relative w-full">
-            <img src="images/kk4.jpg" class="w-full" />
+            <img src="images/kk4.jpg" class="w-full rounded-lg" />
             <a href="#slide3" class="btn btn-circle absolute left-3 top-1/2 -translate-y-1/2">❮</a>
             <a href="#slide5" class="btn btn-circle absolute right-3 top-1/2 -translate-y-1/2">❯</a>
           </div>
 
           <!-- Slide 5 -->
           <div id="slide5" class="carousel-item relative w-full">
-            <img src="images/kk5.jpg" class="w-full" />
+            <img src="images/kk5.jpg" class="w-full rounded-lg" />
             <a href="#slide4" class="btn btn-circle absolute left-3 top-1/2 -translate-y-1/2">❮</a>
-            <a href="#slide1" class="btn btn-circle absolute right-3 top-1/2 -translate-y-1/2">❯</a>
+            <a href="#slide6" class="btn btn-circle absolute right-3 top-1/2 -translate-y-1/2">❯</a>
           </div>
 
-          <!-- Slide 6 -->           
+          <!-- Slide 6 -->
           <div id="slide6" class="carousel-item relative w-full">
             <img src="images/traveling/kk6.jpg" class="w-full rounded-lg" />
-            
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide5" class="btn btn-circle">❮</a>
-            <a href="#slide1" class="btn btn-circle">❯</a>
-            </div>
+            <a href="#slide5" class="btn btn-circle absolute left-3 top-1/2 -translate-y-1/2">❮</a>
+            <a href="#slide7" class="btn btn-circle absolute right-3 top-1/2 -translate-y-1/2">❯</a>
           </div>
+
           <!-- Slide 7 -->
           <div id="slide7" class="carousel-item relative w-full">
-          <img src="images/traveling/kk7.jpg" class="w-full rounded-lg" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide8" class="btn btn-circle">❮</a>
-            <a href="#slide6" class="btn btn-circle">❯</a>
-          </div>
+            <img src="images/traveling/kk7.jpg" class="w-full rounded-lg" />
+            <a href="#slide6" class="btn btn-circle absolute left-3 top-1/2 -translate-y-1/2">❮</a>
+            <a href="#slide8" class="btn btn-circle absolute right-3 top-1/2 -translate-y-1/2">❯</a>
           </div>
 
           <!-- Slide 8 -->
           <div id="slide8" class="carousel-item relative w-full">
-             <img src="images/traveling/kk8.jpg" class="w-full rounded-lg" />
-             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-               <a href="#slide7" class="btn btn-circle">❮</a>
-               <a href="#slide1" class="btn btn-circle">❯</a>
-              </div>
-
+            <img src="images/traveling/kk8.jpg" class="w-full rounded-lg" />
+            <a href="#slide7" class="btn btn-circle absolute left-3 top-1/2 -translate-y-1/2">❮</a>
+            <a href="#slide1" class="btn btn-circle absolute right-3 top-1/2 -translate-y-1/2">❯</a>
           </div>
+
+        </div>
       </div>
 
+      
       <div>
-        <h3 class="text-2xl font-bold mb-3">Trip to Cox’s Bazar</h3>
-
+        <h3 class="text-2xl font-bold mb-3">কাজী এন্ড কাজী টি এস্টেট </h3>
         <p class="text-lg leading-relaxed">
           চা ভালোবাসে না এমন মানুষ খুবই কম তাই না? <br><br>
           তা কেমন হয় যদি এমন কোথাও যাওয়া যায় যেখানে সকাল শুরু হয় চা পাতার সুবাসে,
           আর বিকেলের সূর্য ডোবে সবুজের ভেতর! <br><br>
           এমনই একটি জায়গা হচ্ছে "আনন্দধারা রিসোর্ট, কাজী এন্ড কাজী টি এস্টেট"। <br>
           পঞ্চগড়ের তেঁতুলিয়া রওশনপুর গ্রামে অবস্থিত এই চা বাগানের রিসোর্টটি
-          ভ্রমণকারীদের মনকে অন্যরকম প্রশান্তি দেয়।
-          <br><br>
+          ভ্রমণকারীদের মনকে অন্যরকম প্রশান্তি দেয়।<br><br>
           📌 রওশনপুর, তেঁতুলিয়া, পঞ্চগড়
         </p>
-
-        
       </div>
-
-      </div>
-
-      <div class="grid md:grid-cols-2 gap-10 items-center">
-        <div>
-          <h3 class="text-2xl font-bold mb-3">Exploring Sajek Valley</h3>
-          <p class="text-lg leading-relaxed">
-            Add your Sajek Valley experience...  
-            Clouds floating under your feet — Sajek is truly the Queen of Hills.
-          </p>
-
-          <button class="btn btn-sm mt-4 bg-[#d17f0d] text-white">
-            Read More
-          </button>
-        </div>
-
-        <img src="travel/travel2.jpg" class="rounded-lg shadow-xl" />
-      </div>
-
-      <!-- Travel Block 3  -->
-      <div class="grid md:grid-cols-2 gap-10 items-center">
-        <img src="travel/travel3.jpg" class="rounded-lg shadow-xl" />
-        <div>
-          <h3 class="text-2xl font-bold mb-3">Saint Martin’s Island</h3>
-          <p class="text-lg leading-relaxed">
-            Add your island adventure...  
-            Crystal clear water, peaceful weather — Saint Martin’s is a dream.
-          </p>          
-        </div>
-      </div>
-
     </div>
 
-
     
+    <div class="grid md:grid-cols-2 gap-10 items-center mb-16">
+      <video class="w-full max-w-md rounded-lg shadow-xl" controls>
+        <source src="images/traveling/Sajek.mp4" type="video/mp4" />
+      </video>
+      <div>
+        <h3 class="text-2xl font-bold mb-3">Exploring Sajek Valley</h3>
+        <p class="text-lg leading-relaxed">
+          Sajek Valley is a popular tourist spot in Bangladesh, situated among the hills of the Kasalong range of mountains in the northern area of the Chittagong Hill Tracts. <br>
+          places of Sajek: <br>
+          1.Sajek Vally <br>
+          2.Konglong Hill <br>
+          3.Lushi Heritage Village  
+        </p>
+      </div>
+    </div>
+    
+    <div class="grid md:grid-cols-2 gap-10 items-center mb-16">
+      <div>
+        <h3 class="text-2xl font-bold mb-3">তেতুলিয়া জিরো পয়েন্ট</h3>
+        <p class="text-lg leading-relaxed">
+          আচ্ছা কেমন হয় কাঠফাটা রদ্দুরে ঘুরার সময় হঠাৎ একটা বিশ্রামাগার পেলে?  
+          তেমনই একটি কাঠফাটা রদ্দুরে ছিলো আমাদের পঞ্চগড় ভ্রমণ।  
+          সূর্যের উত্তাপ যখন তীব্র থেকে তীব্রতর হচ্ছিলো আমাদের বাইক এগিয়ে যাচ্ছিলো।  
+          নদীর তীরে লুকিয়ে থাকা এক সময়কার রাজকীয় বিশ্রামালয়ে -"তেঁতুলিয়া ডাক বাংলো।" <br><br>
+          📌তেতুলিয়া জিরো পয়েন্ট, পঞ্চগড়
+        </p>
+      </div>
+      <img src="images/traveling/TZero.jpg" class="w-full max-w-md rounded-lg shadow-xl" />
+    </div>
 
+    <!-- ----------------- Travel Videos ----------------- -->
     <h2 class="text-3xl font-bold montserrat-font mt-20 mb-10 text-center">
       Travel Videos
     </h2>
-
-    <div class="grid md:grid-cols-3 gap-10">
-
+    <div class="grid md:grid-cols-3 gap-10 mb-12">
       <div>
         <video controls class="rounded-xl shadow-xl w-full">
           <source src="images/traveling/Saree.mp4" type="video/mp4">
         </video>
-        <p class="mt-3 font-semibold text-center">Beauty of Bandarban </p>
+        <p class="mt-3 font-semibold text-center">Beauty of Bandarban</p>
       </div>
-      
       <div>
         <video controls class="rounded-xl shadow-xl w-full">
           <source src="images/traveling/alikhadam.mp4" type="video/mp4">
         </video>
         <p class="mt-3 font-semibold text-center">The cloudy road of Alikhadam</p>
       </div>
-      
       <div>
         <video controls class="rounded-xl shadow-xl w-full">
           <source src="images/traveling/thanci.mp4" type="video/mp4">
         </video>
         <p class="mt-3 font-semibold text-center">Travel Bangladesh</p>
       </div>
-
       <div>
         <video controls class="rounded-xl shadow-xl w-full">
           <source src="images/traveling/hiddenJam.mp4" type="video/mp4">
         </video>
         <p class="mt-3 font-semibold text-center">Hidden Trail of Bandarban</p>
       </div>
-
       <div>
         <video controls class="rounded-xl shadow-xl w-full">
           <source src="images/traveling/jamrum.mp4" type="video/mp4">
         </video>
         <p class="mt-3 font-semibold text-center">Jamrum Waterfall</p>
       </div>
-
       <div>
         <video controls class="rounded-xl shadow-xl w-full">
           <source src="images/traveling/waterfallLanglok.mp4" type="video/mp4">
         </video>
         <p class="mt-3 font-semibold text-center">The mighty Langlok</p>
       </div>
-
-      <h4 class="text-2xl font-bold montserrat-font  text-center">
-        <a class="text-center" href="https://www.facebook.com/share/17dyQn8i5h/">More travel content - <span class="blue">Skylark</span> </a>
-      
-    </h4>
-
     </div>
-    
-    <section class="py-16 bg-yellow-50">
-  <div class="container mx-auto px-5">
-    <h2 class="text-3xl font-bold text-center mb-10 montserrat-font">
+
+    <!-- ----------------- Travel Photography ----------------- -->
+    <h2 class="text-3xl font-bold montserrat-font mt-20 mb-10 text-center">
       Travel Photography
     </h2>
-
     <div class="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
-
       <img src="images/traveling/p1.jpg" class="w-full rounded-lg shadow-lg" />
       <img src="images/traveling/p2.jpg" class="w-full rounded-lg shadow-lg" />
       <img src="images/traveling/p3.jpg" class="w-full rounded-lg shadow-lg" />
@@ -775,13 +816,11 @@
       <img src="images/traveling/p14.jpg" class="w-full rounded-lg shadow-lg" />
       <img src="images/traveling/p15.jpg" class="w-full rounded-lg shadow-lg" />
       <img src="images/traveling/p16.jpg" class="w-full rounded-lg shadow-lg" />
-
     </div>
-  </div>
-</section>
 
   </div>
- </section>
+  </section>
+
 
 
   <!-- Footer -->
