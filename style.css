@@ -43,3 +43,8 @@ body {
   color: blue;
   font:bold;
 }
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;  font-weight: 700; /* you can change 400-700 */ 
+}
+
